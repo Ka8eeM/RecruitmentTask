@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Settings"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current user name" />
+
+        <TextView
+            android:id="@+id/cur_add_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current number of added patient: "
+            android:textSize="20sp" />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/max_num_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Max number of patient allowed" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_red_dark"
+            android:text="save" />
+    </LinearLayout>
+</FrameLayout>

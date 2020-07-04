@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Task</string>
+
+    <string name="savics">Savics</string>
+    <string name="support_savics_org">support@savics.org</string>
+    <string name="open_action_bar_toggle">Open</string>
+    <string name="close_action_bar_toggle">Close</string>
+
+</resources>
